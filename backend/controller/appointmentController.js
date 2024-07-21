@@ -100,6 +100,7 @@ export const updateAppointmentStatus = catchAsyncErrors(
       res.status(200).json({
         success: true,
         message: "Appointment Status Updated!",
+        appointment
       });
     }
   );
