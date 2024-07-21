@@ -4,8 +4,7 @@ import ErrorHandler from '../middlewares/errorMiddleware.js';
 export const sendMessage = catchAsyncErrors(async(req,res,next)=>{
     const {firstName, lastName, email, phone, message} = req.body;
     if(!firstName || !lastName || !email || !phone || !message){
-        console.log("Error detected");
-        return next(new ErrorHandler("Please fill full form!",400));
+              return next(new ErrorHandler("Please fill full form!",400));
     
     }
         await Message.create({firstName, lastName, email, phone, message});
