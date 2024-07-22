@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 body {
-  background: #3939d9f2;
+  background: #DEAC80;
 }
 .container {
   padding: 0 100px;
@@ -19,7 +20,7 @@ body {
 }
 .page {
   margin-left: 120px;
-  background: #e5e5e5;
+  background: #FFF1DB;
   padding: 40px;
   height: 100vh;
   border-top-left-radius: 50px;
@@ -50,7 +51,7 @@ body {
   padding-top: 40px;
   padding-bottom: 60px;
   min-height: 100vh;
-  background: #e5e5e5;
+  background: #FFF1DB;
 
   display: flex;
   justify-content: center;
@@ -170,7 +171,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  background: #b5b5ff;
+  background: #D6BD98;
   padding: 20px 20px 0 10px;
 }
 .dashboard .banner:first-child .firstBox img {
@@ -191,17 +192,17 @@ body {
   font-size: 34px;
 }
 .dashboard .banner:first-child .firstBox .content div h5 {
-  color: #ff008d;
+  color: #914F1E;
 }
 .dashboard .banner:first-child .firstBox .content p {
   font-size: 16px;
 }
 .dashboard .banner:first-child .secondBox {
-  background: #3939d9f2;
+  background: #DEAC80;
   color: #fff;
 }
 .dashboard .banner:first-child .thirdBox {
-  color: #ff008d;
+  color: #914F1E;
   background: #fff;
 }
 .dashboard .banner:first-child .secondBox,
@@ -360,7 +361,7 @@ body {
 }
 .sidebar svg:hover {
   background: #fff;
-  color: #3939d9f2;
+  color: #DEAC80;
   border-radius: 8px;
   transition: 0.3s;
   cursor: pointer;
@@ -379,7 +380,7 @@ body {
 
 @media (max-width: 1208px) {
   .sidebar {
-    background: #3939d9f2;
+    background: #DEAC80;
     left: -100%;
     transition: 0.3s;
   }
@@ -393,7 +394,7 @@ body {
     top: 30px;
     left: 40px;
     font-size: 34px;
-    background: #3939d9f2;
+    background: #DEAC80;
     color: #fff;
     height: 40px;
     width: 40px;
@@ -416,7 +417,7 @@ body {
 }
 
 .doctors h1 {
-  color: #3939d9f2;
+  color: #DEAC80;
   margin-bottom: 30px;
   font-size: 2.3rem;
 }
@@ -467,7 +468,7 @@ body {
 }
 
 .messages h1 {
-  color: #3939d9f2;
+  color: #DEAC80;
   margin-bottom: 30px;
   font-size: 2.3rem;
 }

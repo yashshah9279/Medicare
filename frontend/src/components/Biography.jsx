@@ -19,7 +19,7 @@ const Biography = ({imageUrl}) => {
           At Medicare Hospital, our mission is to enhance your well-being through innovative healthcare solutions and unwavering support. We are dedicated to fostering a healing environment that prioritizes your health and comfort.</p>
 
           <p>Where revenue is Happiness of Patients!</p>
-          <p>Service to Mankind is Service to God</p>
+          <p>Service to Mankind is Service to God.</p>
         </div>
       </div>
     </>

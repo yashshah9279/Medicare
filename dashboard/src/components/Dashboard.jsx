@@ -57,26 +57,24 @@ const Dashboard = () => {
             <img src="/doc.png" alt="docImg" />
             <div className="content">
               <div>
-                <p>Hello ,</p>
+                <p>Hey ,</p>
                 <h5>
                   {admin &&
                     `${admin.firstName} ${admin.lastName}`}{" "}
                 </h5>
               </div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis, nam molestias. Eaque molestiae ipsam commodi neque.
-                Assumenda repellendus necessitatibus itaque.
+              Streamline hospital operations with our intuitive admin dashboard. Monitor patient data, manage appointments, and add new Doctors and Admins, ensuring efficient healthcare management.
               </p>
             </div>
           </div>
           <div className="secondBox">
             <p>Total Appointments</p>
-            <h3>1500</h3>
+            <h3>1500+</h3>
           </div>
           <div className="thirdBox">
             <p>Registered Doctors</p>
-            <h3>10</h3>
+            <h3>10+</h3>
           </div>
         </div>
         <div className="banner">
