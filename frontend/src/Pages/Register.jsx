@@ -56,10 +56,9 @@ const Register = () => {
     <>
       <div className="container form-component register-form">
         <h2>Sign Up</h2>
-        <p>Please Sign Up To Continue</p>
+        <p>Please Register To Proceed</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
-          voluptas expedita itaque ex, totam ad quod error?
+        Register now to book appointments. Join us for a seamless experience.
         </p>
         <form onSubmit={handleRegistration}>
           <div>
