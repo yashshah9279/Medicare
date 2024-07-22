@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 body {
-  background: #e5e5e5;
+  background: #FFF1DB;
 }
 .btn {
   padding: 7px 20px;
@@ -114,9 +115,19 @@ h6 {
   overflow-y: hidden;
 }
 .animated-image {
-  animation: moveUpDown 1s infinite alternate ease-in-out;
+  animation: floatUpDown 1.5s infinite ease-in-out;
 }
-
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 @keyframes moveUpDown {
   0% {
     transform: translateY(0);
@@ -483,10 +494,10 @@ nav .btn {
   z-index: 2;
 }
 nav .logoutBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  background: linear-gradient(135deg, #536493, rgb(49, 49, 49));
 }
 nav .loginBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  background: linear-gradient(135deg, #536493, rgb(49, 49, 49));
 }
 nav .hamburger {
   display: none;
@@ -582,7 +593,7 @@ input[type="time"]:before {
   margin-right: 0.5em;
 }
 .logo-img{
-  width: 150px;
+  width: 200px;
 }
 footer .logo-img{
   width: 100%;
