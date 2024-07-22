@@ -13,12 +13,12 @@ const app=express();
 config({path: "./config/config.env"});
 
 app.use(cors({
-    origin: [process.env.FRONTEND_URL,process.env.DASHBOARD_URL],
+    origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],
     methods: ["GET", "POST", "PUT", "DELETE"],
-    credientials: true,
-})
-);
-
+    credentials: true, // Corrected typo here
+}));
+console.log(process.env.FRONTEND_URL);
+console.log(process.env.DASHBOARD_URL);
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
